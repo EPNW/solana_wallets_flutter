@@ -1,0 +1,7 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    unnecessary_new: false
+    library_prefixes: false
+    prefer_generic_function_type_aliases: false
