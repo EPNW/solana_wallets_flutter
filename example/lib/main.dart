@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('Solana Wallets Flutter'),
           actions: const [AboutButton()],
         ),
         body: const Center(child: SelectButton()),
@@ -50,6 +50,17 @@ class _SelectButtonState extends State<SelectButton> {
   void initState() {
     getWalletAdaptersWhenInitalized()
         .then((List<BaseWalletAdapter> value) => setState(() {
+              // Filter the adapters and present only a few to the user
+              value.retainWhere((BaseWalletAdapter adapter) => {
+                    'Phantom',
+                    'Slope',
+                    'Solflare',
+                    'Sollet',
+                    'Sollet (Extension)',
+                    'BitKeep',
+                    'Clover',
+                    'Ledger'
+                  }.contains(adapter.name));
               adapters = value;
             }));
     super.initState();
@@ -69,11 +80,14 @@ class _SelectButtonState extends State<SelectButton> {
                 });
               },
               child: const Text('Deselect')),
-          ConnectionStateButton(adapter: selected!)
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 10),
+            child: ConnectionStateButton(adapter: selected!),
+          )
         ],
       );
     } else if (adapters != null) {
-      child = MaterialButton(
+      child = ElevatedButton(
           onPressed: () {
             showWalletSelectDialog(context: context, adapters: adapters!)
                 .then((BaseWalletAdapter? value) {

@@ -11,8 +11,8 @@ typedef String WalletStateToText(BuildContext context, WalletState state);
 
 /// Can be used to override the build process of a widget.
 ///
-/// The `child` parameter contains the original builder. That means that `child`
-/// would have been used to build the widget if you hadn't used a `WidgetOverrideBuilder`.
+/// The [child] parameter contains the original builder. That means that [child]
+/// would have been used to build the widget if you hadn't used a [WidgetOverrideBuilder].
 typedef Widget WidgetOverrideBuilder(BuildContext context, WidgetBuilder child);
 
 String _defaultEnglish(BuildContext context, WalletState state) {
@@ -34,34 +34,36 @@ String _defaultEnglish(BuildContext context, WalletState state) {
   }
 }
 
+Widget _selectWallet(BuildContext context) => const Text('Select Wallet');
+
 /// Shows a dialog that lets the user select a wallet.
 ///
-/// `adapters` is a list of adapters the user should choose from.
+/// [adapters] is a list of adapters the user should choose from.
 ///
-/// The future completes either with the [BaseWalletAdapter] the user choose 
-/// from the `adapters` list, or with `null` if the user closed the dialog
+/// The future completes either with the [BaseWalletAdapter] the user choose
+/// from the [adapters] list, or with `null` if the user closed the dialog
 /// without selecting a wallet.
 ///
-/// You can change the dimension of the dialog using the `height` and `width`
+/// You can change the dimension of the dialog using the [height] and [width]
 /// parameters.
 ///
-/// The `walletStateToText` is used to convert the [BaseWalletAdapter.walletState]
+/// The [walletStateToText] is used to convert the [BaseWalletAdapter.walletState]
 /// into a human readable text. It defaults to English, so override this if you want to
-/// localize the dialog. The wallet state of each element in `adapters` is shown
+/// localize the dialog. The wallet state of each element in [adapters] is shown
 /// as part of the dialog.
 ///
 /// You can change the dialogs title widget from the default `Select Wallet` text
 /// to something different by specifying a builder, what is useful for localization.
 ///
 /// Finally, you can override or extend the way the dialog should be build by passing an
-/// `overrideBuilder`. In this case, whatever the `overrideBuilder` returns will
-/// be used as dialog widget (for the underlying [showDialog]) instead. The `child`
+/// [overrideBuilder]. In this case, whatever the [overrideBuilder] returns will
+/// be used as dialog widget (for the underlying [showDialog]) instead. The [child]
 /// parameter of the [WidgetOverrideBuilder] will contain the way that the dialog
-/// would have been build if you hadn't spcifyed the `overrideBuilder`.
+/// would have been build if you hadn't spcifyed the [overrideBuilder].
 Future<BaseWalletAdapter?> showWalletSelectDialog(
     {required BuildContext context,
     required List<BaseWalletAdapter> adapters,
-    WidgetBuilder dialogTitleBuilder = (BuildContext context)=>const Text('Select Wallet'),
+    WidgetBuilder dialogTitleBuilder = _selectWallet,
     double height = 400,
     double width = 300,
     WalletStateToText walletStateToText = _defaultEnglish,
@@ -128,7 +130,7 @@ class __AdapterListTileState extends State<_AdapterListTile> {
         onTap = null;
         break;
       case WalletState.notDetected:
-        onTap = () => launch(widget.adapter.url);
+        onTap = () => launchUrl(Uri.parse(widget.adapter.url));
         break;
       case WalletState.loadable:
       case WalletState.installed:
@@ -144,7 +146,8 @@ class __AdapterListTileState extends State<_AdapterListTile> {
         icon: widget.adapter.icon,
       ),
       title: new Text(widget.adapter.name),
-      subtitle: new Text(widget.walletStateToText(context,widget.adapter.walletState)),
+      subtitle: new Text(
+          widget.walletStateToText(context, widget.adapter.walletState)),
     );
   }
 }

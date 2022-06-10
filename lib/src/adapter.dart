@@ -60,13 +60,15 @@ class BaseWalletAdapter extends Adapter
 
   bool get _connected => getProperty(js, 'connected');
   bool get _connecting => getProperty(js, 'connecting');
-  // There is no build in indicator for _disconnecting,
+  // There is no build-in indicator for _disconnecting,
   // so we add one manually
   bool _disconnecting = false;
   @override
   String get iconString => getProperty(js, 'icon');
-  /// The name of this adapter
+
+  /// The name of this adapter.
   String get name => getProperty(js, 'name');
+
   /// The base58 representation of the wallets public key.
   ///
   /// Will be `null` if [walletState] is not [WalletState.connected], and might be `null`
@@ -83,15 +85,17 @@ class BaseWalletAdapter extends Adapter
       return null;
     }
   }
-  /// The url to the wallets homepage.
+
+  /// The url to the wallet's homepage.
   String get url => getProperty(js, 'url');
   WalletReadyStateJS get _readyState =>
       walletReadyStateFromJS(getProperty(js, 'readyState'));
-  /// The state the wallet is currently in.
+
+  /// The state the wallet currently is in.
   ///
   /// This might change at any time, especially from [WalletState.connected] to
-  /// [WalletState.disconnected] since the user might just deauthorized your app
-  /// using his wallet extension!
+  /// [WalletState.installed]/[WalletState.loadable] since the user might just
+  /// deauthorized your app using his wallet extension!
   ///
   /// You can get notified if this value changes if you [addListener] on this object,
   /// BUT MAKE SURE to remove the listener using [removeListener] after you are done,
@@ -110,7 +114,7 @@ class BaseWalletAdapter extends Adapter
 
   /// Tries to connect to the wallet.
   ///
-  /// During this step the users browser usually opens a extension window or 
+  /// During this step the users browser usually opens a extension window or
   /// shows a popup.
   ///
   /// Only allowed if [walletState] is [WalletState.installed] or [WalletState.loadable], throws a
