@@ -27,6 +27,8 @@
 .dart_tool/
 .packages
 build/
+.flutter-plugins-dependencies
+.flutter-plugins
 
 tool/node_modules
 tool/yarn-error.log
