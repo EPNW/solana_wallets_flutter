@@ -1,3 +1,4 @@
+/// A flutter plugin to connect to a users wallet like phantom, solflare, etc.
 library solana_wallets_flutter;
 
 export 'src/adapter.dart'
@@ -6,6 +7,8 @@ export 'src/adapter.dart'
         BaseMessageSignerWalletAdapter,
         BaseSignerWalletAdapter,
         BaseWalletAdapter;
+export 'src/proxy_message.dart' show ProxyMessage;
+export 'src/proxy_transaction.dart' show ProxyTransaction;
 export 'src/solana_wallets_flutter.dart'
     show getWalletAdapters, getWalletAdaptersWhenInitalized, initSolanaWallets;
 export 'src/wallet_error.dart'

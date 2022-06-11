@@ -1,5 +1,5 @@
 name: solana_wallets_flutter
-description: A new Flutter plugin project.
+description: A flutter plugin to connect to a users wallet like phantom, solflare, etc.
 version: 1.0.0
 homepage: https://github.com/EPNW/solana_wallets_adapter
 

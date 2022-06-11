@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:solana_wallets_flutter/solana_wallets_flutter.dart';
 import 'package:solana_wallets_flutter/solana_wallets_flutter_ui.dart';
+import 'transaction_example.dart';
 
 void main() async {
   initSolanaWallets();
@@ -83,7 +84,7 @@ class _SelectButtonState extends State<SelectButton> {
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 10),
             child: ConnectionStateButton(adapter: selected!),
-          )
+          ),
         ],
       );
     } else if (adapters != null) {
@@ -138,7 +139,11 @@ class _ConnectionStateButtonState extends State<ConnectionStateButton> {
       children: [
         _button(context),
         Text('Current state: ${widget.adapter.walletState}'),
-        Text('Current Pubkey: ${widget.adapter.publicKey}')
+        Text('Current Pubkey: ${widget.adapter.publicKey}'),
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 20.0),
+          child: TransactionExample(wallet: widget.adapter),
+        )
       ],
     );
   }

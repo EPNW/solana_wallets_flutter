@@ -46,11 +46,10 @@ const _wallets = [
 const solana_wallets_flutter = {
     'getWalletAdapters': () => _wallets,
     'transaction': {
-        'serialize': (transaction) => transaction.serialize(),
         'from': (data) => Transaction.from(data),
+        'populate': (message, signatures) => Transaction.populate(message, signatures),
     },
     'message': {
-        'serialize': (message) => message.serialize(),
         'from': (data) => Message.from(data),
     },
 

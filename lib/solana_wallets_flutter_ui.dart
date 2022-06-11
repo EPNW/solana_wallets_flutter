@@ -57,7 +57,7 @@ Widget _selectWallet(BuildContext context) => const Text('Select Wallet');
 ///
 /// Finally, you can override or extend the way the dialog should be build by passing an
 /// [overrideBuilder]. In this case, whatever the [overrideBuilder] returns will
-/// be used as dialog widget (for the underlying [showDialog]) instead. The [child]
+/// be used as dialog widget (for the underlying [showDialog]) instead. The `child`
 /// parameter of the [WidgetOverrideBuilder] will contain the way that the dialog
 /// would have been build if you hadn't spcifyed the [overrideBuilder].
 Future<BaseWalletAdapter?> showWalletSelectDialog(
