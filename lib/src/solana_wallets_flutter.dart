@@ -6,6 +6,7 @@ import 'package:js/js.dart';
 
 import 'adapter.dart';
 import 'dart_interopt_check.dart';
+import 'js_licenses.dart';
 
 @JS('getWalletAdapters')
 external List<dynamic> _getWalletAdapters();
@@ -66,6 +67,7 @@ Completer<void>? _initalized;
 /// use any other function. Subsequent calles to this function are no-ops.
 Future<void> initSolanaWallets() async {
   if (_initalized == null) {
+    registerJavaScriptLicenses();
     _initalized = new Completer<void>();
     await initDartInteropt('solana_wallets_flutter', 'loader.js');
     _initalized!.complete();

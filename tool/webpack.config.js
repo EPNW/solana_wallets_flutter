@@ -1,10 +1,6 @@
 const path = require('path');
-const fs = require('fs');
 const LicenseWebpackPlugin = require('license-webpack-plugin').LicenseWebpackPlugin;
 const TerserPlugin = require('terser-webpack-plugin');
-const eightyHyphens = new Array(81).join('-');
-
-const additionalLicense = '../PACKAGE_LICENSE';
 
 module.exports = {
     entry: './src/loader.js',
@@ -36,7 +32,7 @@ module.exports = {
         new LicenseWebpackPlugin({
             perChunkOutput: false, // combine all license information into one file
             renderLicenses: formatLicenses,
-            outputFilename: '../LICENSE'
+            outputFilename: '../lib/src/js_licenses.dart'
         })
     ]
 }
@@ -75,15 +71,15 @@ function formatLicenses(modules) {
                 throw new Error('Can not find author or url for ' + module.packageJson.name);
             }
         }
-        const entry = (module.packageJson.name + '\n\n' + text).trim();
+        const entry = 'LicenseEntryWithLineBreaks([\'' + module.packageJson.name + '\'],\'\'\'' + text.trim() + '\'\'\')';
         if (module.licenseText) {
             licenses.unshift(entry);
         } else {
             licenses.push(entry);
         }
     });
-    if (typeof (additionalLicense) !== 'undefined') {
-        licenses.unshift(fs.readFileSync(additionalLicense).toString());
-    }
-    return licenses.join('\n' + eightyHyphens + '\n');
+    return dartCodeStart + licenses.join(',\r\n') + dartCodeEnd;
 }
+
+const dartCodeStart = '//\r\n// Generated file. Do not edit.\r\n//\r\n\r\n// ignore_for_file: directives_ordering\r\n// ignore_for_file: lines_longer_than_80_chars\r\n// ignore_for_file: depend_on_referenced_packages\r\n\r\nimport \'package:flutter/foundation.dart\';\r\n\r\nvoid registerJavaScriptLicenses() {\r\n  LicenseRegistry.addLicense(() => new Stream.fromIterable(_entries));\r\n}\r\n\r\nconst List<LicenseEntry> _entries = [';
+const dartCodeEnd = '];';
