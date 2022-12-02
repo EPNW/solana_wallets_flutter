@@ -3,7 +3,7 @@ library solana_wallets_flutter;
 
 import 'dart:async';
 import 'package:solana_wallets_flutter/src/js_stub.dart'
-    if (dart.library.js) 'package:js/js_util.dart';
+    if (dart.library.js) 'package:js/js.dart';
 
 import 'adapter.dart';
 import 'dart_interopt_check.dart';
