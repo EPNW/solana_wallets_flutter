@@ -5,8 +5,8 @@ import 'package:flutter/widgets.dart';
 
 import 'package:inject_js/inject_js.dart' as InjectJS;
 
-import 'package:js/js_util.dart';
-import 'package:js/js.dart';
+import 'package:solana_wallets_flutter/src/js_stub.dart'
+    if (dart.library.js) 'package:js/js_util.dart';
 
 @JS('globalThis')
 external Object _window;
