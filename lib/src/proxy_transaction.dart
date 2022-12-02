@@ -2,8 +2,9 @@
 library transaction;
 
 import 'dart:typed_data';
-import 'package:js/js.dart';
-import 'package:js/js_util.dart';
+// import 'package:js/js.dart';
+import 'package:solana_wallets_flutter/src/js_stub.dart'
+    if (dart.library.js) 'package:js/js_util.dart';
 import 'proxy_message.dart';
 
 @JS('from')
