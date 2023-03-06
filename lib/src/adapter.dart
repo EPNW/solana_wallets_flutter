@@ -1,7 +1,5 @@
 import 'dart:async';
-import 'dart:typed_data';
 import 'package:flutter/foundation.dart';
-import 'package:flutter/widgets.dart';
 import 'package:js/js_util.dart';
 
 import 'proxy_transaction.dart';

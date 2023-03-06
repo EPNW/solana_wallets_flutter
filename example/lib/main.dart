@@ -1,7 +1,28 @@
+// IMPORTANT: To see how to create, sign and send a transaction see https://github.com/EPNW/solana_wallets_flutter/blob/master/example/lib/transaction_example.dart
+
 import 'package:flutter/material.dart';
 import 'package:solana_wallets_flutter/solana_wallets_flutter.dart';
 import 'package:solana_wallets_flutter/solana_wallets_flutter_ui.dart';
 import 'transaction_example.dart';
+
+const Set<String> suggestedWallets = {
+  'Phantom',
+  'Slope',
+  'Exodus',
+  'Brave',
+  'Coinbase Wallet',
+  'Backpack',
+  'Solflare',
+  'Clover',
+  'Coin98',
+  'Solong',
+  'MathWallet',
+  'Glow',
+  'Spot',
+  'BitKeep',
+  'Ledger'
+};
+const bool showAllWallets = false;
 
 void main() async {
   initSolanaWallets();
@@ -52,16 +73,8 @@ class _SelectButtonState extends State<SelectButton> {
     getWalletAdaptersWhenInitalized()
         .then((List<BaseWalletAdapter> value) => setState(() {
               // Filter the adapters and present only a few to the user
-              value.retainWhere((BaseWalletAdapter adapter) => {
-                    'Phantom',
-                    'Slope',
-                    'Solflare',
-                    'Sollet',
-                    'Sollet (Extension)',
-                    'BitKeep',
-                    'Clover',
-                    'Ledger'
-                  }.contains(adapter.name));
+              value.retainWhere((BaseWalletAdapter adapter) =>
+                  showAllWallets || suggestedWallets.contains(adapter.name));
               adapters = value;
             }));
     super.initState();

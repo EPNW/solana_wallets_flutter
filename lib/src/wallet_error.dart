@@ -47,67 +47,67 @@ Future<T> catchWalletError<T>(Future<T> future) async {
 }
 
 class WalletAccountError extends WalletError {
-  WalletAccountError._(_WalletError _e) : super._(_e);
+  WalletAccountError._(_WalletError e) : super._(e);
 }
 
 class WalletConfigError extends WalletError {
-  WalletConfigError._(_WalletError _e) : super._(_e);
+  WalletConfigError._(_WalletError e) : super._(e);
 }
 
 class WalletConnectionError extends WalletError {
-  WalletConnectionError._(_WalletError _e) : super._(_e);
+  WalletConnectionError._(_WalletError e) : super._(e);
 }
 
 class WalletDisconnectedError extends WalletError {
-  WalletDisconnectedError._(_WalletError _e) : super._(_e);
+  WalletDisconnectedError._(_WalletError e) : super._(e);
 }
 
 class WalletDisconnectionError extends WalletError {
-  WalletDisconnectionError._(_WalletError _e) : super._(_e);
+  WalletDisconnectionError._(_WalletError e) : super._(e);
 }
 
 class WalletKeypairError extends WalletError {
-  WalletKeypairError._(_WalletError _e) : super._(_e);
+  WalletKeypairError._(_WalletError e) : super._(e);
 }
 
 class WalletLoadError extends WalletError {
-  WalletLoadError._(_WalletError _e) : super._(_e);
+  WalletLoadError._(_WalletError e) : super._(e);
 }
 
 class WalletNotConnectedError extends WalletError {
-  WalletNotConnectedError._(_WalletError _e) : super._(_e);
+  WalletNotConnectedError._(_WalletError e) : super._(e);
 }
 
 class WalletNotReadyError extends WalletError {
-  WalletNotReadyError._(_WalletError _e) : super._(_e);
+  WalletNotReadyError._(_WalletError e) : super._(e);
 }
 
 class WalletPublicKeyError extends WalletError {
-  WalletPublicKeyError._(_WalletError _e) : super._(_e);
+  WalletPublicKeyError._(_WalletError e) : super._(e);
 }
 
 class WalletSendTransactionError extends WalletError {
-  WalletSendTransactionError._(_WalletError _e) : super._(_e);
+  WalletSendTransactionError._(_WalletError e) : super._(e);
 }
 
 class WalletSignMessageError extends WalletError {
-  WalletSignMessageError._(_WalletError _e) : super._(_e);
+  WalletSignMessageError._(_WalletError e) : super._(e);
 }
 
 class WalletSignTransactionError extends WalletError {
-  WalletSignTransactionError._(_WalletError _e) : super._(_e);
+  WalletSignTransactionError._(_WalletError e) : super._(e);
 }
 
 class WalletTimeoutError extends WalletError {
-  WalletTimeoutError._(_WalletError _e) : super._(_e);
+  WalletTimeoutError._(_WalletError e) : super._(e);
 }
 
 class WalletWindowBlockedError extends WalletError {
-  WalletWindowBlockedError._(_WalletError _e) : super._(_e);
+  WalletWindowBlockedError._(_WalletError e) : super._(e);
 }
 
 class WalletWindowClosedError extends WalletError {
-  WalletWindowClosedError._(_WalletError _e) : super._(_e);
+  WalletWindowClosedError._(_WalletError e) : super._(e);
 }
 
 WalletError? _tryCast(dynamic e) {

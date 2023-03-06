@@ -8,7 +8,9 @@ import 'package:solana_wallets_flutter/solana_wallets_flutter.dart';
 import 'package:solana/solana.dart';
 
 const String _myAccount = '8wfo3nk8BVbu38pCJGupTWR4XXFagczaFbrMh6Pev1P5';
-const String _mainnet = 'https://api.mainnet-beta.solana.com';
+// IMPORTANT: In production, you should use your own endpoint, since this endpoint
+// will only work with `flutter run`!
+const String _mainnet = 'https://mainnet.solana-rpc.epnw.eu/';
 
 /// We use the [solana] package to create and send the transaction,
 /// and the [solana_wallets_flutter] to let the user sign the transaction.
@@ -23,10 +25,11 @@ Future<void> _tansferExample(
       recipientAccount: Ed25519HDPublicKey.fromBase58(_myAccount),
       lamports: 100000000);
   Message message = Message.only(instruction);
-  RecentBlockhash blockhash = await client.getRecentBlockhash();
+  LatestBlockhash blockhash = (await client.getLatestBlockhash()).value;
   CompiledMessage compiledMessage =
       message.compile(recentBlockhash: blockhash.blockhash, feePayer: sender);
-  Uint8List bytes = Uint8List.fromList(List<int>.from(compiledMessage.data));
+  Uint8List bytes =
+      Uint8List.fromList(List<int>.from(compiledMessage.toByteArray()));
 
   // Since we now got the bytes of the message, we enter the domain of
   // solana_wallets_flutter.

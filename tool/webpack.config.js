@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const LicenseWebpackPlugin = require('license-webpack-plugin').LicenseWebpackPlugin;
 const TerserPlugin = require('terser-webpack-plugin');
 
@@ -12,7 +13,8 @@ module.exports = {
     resolve: {
         fallback: {
             "stream": require.resolve("stream-browserify"),
-            "crypto": require.resolve("crypto-browserify")
+            "crypto": require.resolve("crypto-browserify"),
+            "buffer": require.resolve("buffer")
         }
     },
     optimization: {
@@ -33,7 +35,10 @@ module.exports = {
             perChunkOutput: false, // combine all license information into one file
             renderLicenses: formatLicenses,
             outputFilename: '../lib/src/js_licenses.dart'
-        })
+        }),
+        new webpack.ProvidePlugin({
+            Buffer: ['buffer', 'Buffer'],
+        }),
     ]
 }
 
@@ -61,14 +66,18 @@ function formatLicenses(modules) {
                 text += '\n\n';
                 text += module.packageJson.homepage;
                 authorOrUrl = true;
-            } else if (module.packageJson.repository.url) {
+            } else if (module.packageJson.repository && module.packageJson.repository.url) {
                 text += '\n\n';
                 text += module.packageJson.repository.url;
                 authorOrUrl = true;
             }
             if (!authorOrUrl) {
-                console.log(module);
-                throw new Error('Can not find author or url for ' + module.packageJson.name);
+                //console.log(module);
+                //throw new Error('Can not find author or url for ' + module.packageJson.name);
+                fallback = 'https://www.npmjs.com/package/' + module.name;
+                console.warn('\033[35mIMPORTANT: Can not find author or url for ' + module.packageJson.name + '! Falling back to ' + fallback + '. Make sure that this website actually exists!\033[0m');
+                text += '\n\n';
+                text += fallback;
             }
         }
         const entry = 'LicenseEntryWithLineBreaks([\'' + module.packageJson.name + '\'],\'\'\'' + text.trim() + '\'\'\')';
