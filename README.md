@@ -26,8 +26,53 @@ These are the usual steps to use this plugin:
 ### Usage in JavaScript
 Make sure to read the "theory" section above first. All child classes of `Adapter` (which `BaseWalletAdapter` also is) contain a `js` property which is a proxied JavaScript object of the wallet adapter. You can pass this `js` property to JavaScript and used it there, e.g. in conjunction with [anchor](https://github.com/coral-xyz/anchor). There you would use the `js` property as `wallet` parameter to create an [`AnchorProvider`](https://coral-xyz.github.io/anchor/ts/classes/AnchorProvider.html).
 
+Here is some code do summarize this. Assume you loaded the following JavaScript into the browser:
+```javascript
+import { AnchorProvider } from '@coral-xyz/anchor';
+import { Connection } from '@solana/web3.js';
+
+function doSomething(wallet) {
+    const url = 'https://solana-mainnet.rpc.extrnode.com';
+    const provider = new AnchorProvider(new Connection(url), wallet, {});
+    //do something related to your project with the provider
+}
+
+const my_project = {
+    'doSomething': doSomething
+};
+
+if (window.dartInteropt == undefined) {
+    window.dartInteropt = new Object();
+}
+
+window.dartInteropt.my_project = my_project;
+```
+Then you can interact with it from dart using the `js` property of [`Adapter`] like:
+```dart
+@JS('window.dartInteropt.my_project')
+library my_project;
+
+import 'package:js/js.dart';
+import 'package:solana_wallets_flutter/solana_wallets_flutter.dart';
+
+@JS('doSomething')
+external void _doSomething(Object wallet);
+
+void main() async {
+  BaseWalletAdapter phantom = await getPhantom();
+  _doSomething(phantom.js);
+}
+
+Future<BaseWalletAdapter> getPhantom() async {
+    // ...
+    // get the phantom wallet and connect it,
+    // see example/lib/main.dart how to do this!
+}
+```
+To get a better unterstanding of what's going on here, read the documentation of the [`js`](https://pub.dev/packages/js) package.
+
 ### Usage in flutter
-This plugin only provides access to the users wallet, it is out of scope to create or send transactions. The `BaseWalletAdapter` has a `sendTransaction` method, but this is just a proxied JavaScript function and explained in detail in its API documentation (make sure to read the "theory" section to understand it), so it might be hard to use this function with "pure" flutter (because it requires you to provide a JavaScript `@solana/web3.js/Connection` object). However, you can use a package like [`solana`](https://pub.dev/packages/solana) to create and send transactions, and `solana_wallets_flutter` to sign it using the users wallet. In order to do so you need a `BaseSignerWalletAdapter`. Most adapters returned by `getWalletAdaptersWhenInitalized` are actually of this type (so you can cast them). Then, take a look at `BaseSignerWalletAdapter.signTransaction` and `BaseSignerWalletAdapter.signAllTransactions`. The example also demonstrates this.
+This plugin only provides access to the users wallet, it is out of scope to create or send transactions. The `BaseWalletAdapter` has a `sendTransaction` method, but this is just a proxied JavaScript function and explained in detail in its API documentation (make sure to read the "theory" section to understand it), so it might be hard to use this function with "pure" flutter (because it requires you to provide a JavaScript `@solana/web3.js/Connection` object). However, you can use a package like [`solana`](https://pub.dev/packages/solana) to create and send transactions, and `solana_wallets_flutter` to sign it using the users wallet. In order to do so you need a `BaseSignerWalletAdapter`. Most adapters returned by `getWalletAdaptersWhenInitalized` are actually of this type (so you can cast them). Then, take a look at `BaseSignerWalletAdapter.signTransaction` and `BaseSignerWalletAdapter.signAllTransactions`. The example also demonstrates this (see `example/lib/transaction_example.dart`).
 
 ## Examples
 The examples folder contains a project demonstrating how to connect a wallet. It also demonstrates how to use the [`solana`](https://pub.dev/packages/solana) dart package to create a transaction, sign it with `solana_wallets_flutter` and send it with the `solana` package. If you want to see a solana dApp that is written in flutter and uses this plugin, take a look at [NFT-Pixels.io](https://nft-pixels.io).
