@@ -8,9 +8,9 @@ import 'package:solana_wallets_flutter/solana_wallets_flutter.dart';
 import 'package:solana/solana.dart';
 
 const String _myAccount = '8wfo3nk8BVbu38pCJGupTWR4XXFagczaFbrMh6Pev1P5';
-// IMPORTANT: In production, you should use your own endpoint, since this endpoint
-// will only work with `flutter run`!
-const String _mainnet = 'https://mainnet.solana-rpc.epnw.eu/';
+// IMPORTANT: This endpoint is not suited for production uses and could stop
+// working anytime!
+const String _mainnet = 'https://solana-mainnet.rpc.extrnode.com';
 
 /// We use the [solana] package to create and send the transaction,
 /// and the [solana_wallets_flutter] to let the user sign the transaction.
