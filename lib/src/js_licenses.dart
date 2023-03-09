@@ -1,5 +1,5 @@
 //
-// Generated file. Do not edit.
+// GENERATED FILE. DO NOT EDIT!
 //
 
 // ignore_for_file: directives_ordering
@@ -12,7 +12,10 @@ void registerJavaScriptLicenses() {
   LicenseRegistry.addLicense(() => new Stream.fromIterable(_entries));
 }
 
-const List<LicenseEntry> _entries = [LicenseEntryWithLineBreaks(['preact'],'''The MIT License (MIT)
+const List<LicenseEntry> _entries = [
+  LicenseEntryWithLineBreaks([
+    'preact'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2015-present Jason Miller
 
@@ -33,7 +36,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@toruslabs/http-helpers'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@toruslabs/http-helpers'
+  ], '''MIT License
 
 Copyright (c) 2020 Torus
 
@@ -54,7 +59,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/jsonrpc-ws-connection'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/jsonrpc-ws-connection'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -75,7 +82,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/jsonrpc-provider'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/jsonrpc-provider'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -96,7 +105,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['detect-browser'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'detect-browser'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2019 Damon Oehlman <damon.oehlman@gmail.com>
 
@@ -117,7 +128,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/safe-json'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/safe-json'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -138,7 +151,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/utils'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/utils'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -328,7 +343,9 @@ LicenseEntryWithLineBreaks(['@walletconnect/utils'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/types'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/types'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -518,7 +535,9 @@ LicenseEntryWithLineBreaks(['@walletconnect/types'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/core'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/core'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -708,7 +727,9 @@ LicenseEntryWithLineBreaks(['@walletconnect/core'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/sign-client'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/sign-client'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -898,7 +919,9 @@ LicenseEntryWithLineBreaks(['@walletconnect/sign-client'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['@strike-protocols/solana-wallet-adapter'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@strike-protocols/solana-wallet-adapter'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -1099,7 +1122,9 @@ LicenseEntryWithLineBreaks(['@strike-protocols/solana-wallet-adapter'],'''Apache
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['@censo-custody/solana-wallet-adapter'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@censo-custody/solana-wallet-adapter'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -1300,7 +1325,9 @@ LicenseEntryWithLineBreaks(['@censo-custody/solana-wallet-adapter'],'''Apache Li
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['@ledgerhq/hw-transport-webhid'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@ledgerhq/hw-transport-webhid'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -1501,7 +1528,9 @@ LicenseEntryWithLineBreaks(['@ledgerhq/hw-transport-webhid'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['@solana/web3.js'],'''Copyright (c) 2018 Solana Labs, Inc
+  LicenseEntryWithLineBreaks([
+    '@solana/web3.js'
+  ], '''Copyright (c) 2018 Solana Labs, Inc
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -1521,7 +1550,9 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['crc'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'crc'
+  ], '''The MIT License (MIT)
 
 Copyright 2014 Alex Gorbatchev
 
@@ -1543,7 +1574,9 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['webrtc-adapter'],'''Copyright (c) 2014, The WebRTC project authors. All rights reserved.
+  LicenseEntryWithLineBreaks([
+    'webrtc-adapter'
+  ], '''Copyright (c) 2014, The WebRTC project authors. All rights reserved.
 Copyright (c) 2018, The adapter.js project authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
@@ -1573,7 +1606,9 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.'''),
-LicenseEntryWithLineBreaks(['@jnwng/walletconnect-solana'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@jnwng/walletconnect-solana'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -1774,7 +1809,9 @@ LicenseEntryWithLineBreaks(['@jnwng/walletconnect-solana'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['rxjs'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    'rxjs'
+  ], '''Apache License
                          Version 2.0, January 2004
                       http://www.apache.org/licenses/
 
@@ -1975,7 +2012,9 @@ LicenseEntryWithLineBreaks(['rxjs'],'''Apache License
  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  See the License for the specific language governing permissions and
  limitations under the License.'''),
-LicenseEntryWithLineBreaks(['lodash.isequal'],'''Copyright JS Foundation and other contributors <https://js.foundation/>
+  LicenseEntryWithLineBreaks([
+    'lodash.isequal'
+  ], '''Copyright JS Foundation and other contributors <https://js.foundation/>
 
 Based on Underscore.js, copyright Jeremy Ashkenas,
 DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>
@@ -2022,7 +2061,9 @@ Files located in the node_modules and vendor directories are externally
 maintained libraries used by this software which have their own
 licenses; we recommend you read them, as their terms may differ from the
 terms above.'''),
-LicenseEntryWithLineBreaks(['ws'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'ws'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
 
@@ -2043,7 +2084,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/jsonrpc-types'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/jsonrpc-types'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2064,7 +2107,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/environment'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/environment'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2085,7 +2130,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/jsonrpc-utils'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/jsonrpc-utils'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2106,7 +2153,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/relay-api'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/relay-api'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2127,7 +2176,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['filter-obj'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'filter-obj'
+  ], '''The MIT License (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -2148,7 +2199,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['split-on-first'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'split-on-first'
+  ], '''MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -2157,7 +2210,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['decode-uri-component'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'decode-uri-component'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2017, Sam Verschueren <sam.verschueren@gmail.com> (github.com/SamVerschueren)
 
@@ -2166,7 +2221,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['strict-uri-encode'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'strict-uri-encode'
+  ], '''The MIT License (MIT)
 
 Copyright (c) Kevin Martensson <kevinmartensson@gmail.com> (github.com/kevva)
 
@@ -2187,7 +2244,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['query-string'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'query-string'
+  ], '''MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (http://sindresorhus.com)
 
@@ -2196,7 +2255,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/x25519'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/x25519'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2253,7 +2314,9 @@ IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
 OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/sha256'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/sha256'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2274,7 +2337,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/hash'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/hash'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2295,7 +2360,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/hmac'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/hmac'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2316,7 +2383,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/hkdf'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/hkdf'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2337,7 +2406,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/constant-time'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/constant-time'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2390,7 +2461,9 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/poly1305'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/poly1305'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2453,7 +2526,9 @@ https://github.com/floodyberry/poly1305-donna
 
 by Andrew Moon
 MIT or PUBLIC DOMAIN'''),
-LicenseEntryWithLineBreaks(['@stablelib/chacha'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/chacha'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2474,7 +2549,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/chacha20poly1305'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/chacha20poly1305'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2495,7 +2572,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/relay-auth'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/relay-auth'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2516,7 +2595,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/sha512'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/sha512'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2572,7 +2653,9 @@ IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
 OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/int'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/int'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2593,7 +2676,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/binary'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/binary'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2614,7 +2699,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/wipe'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/wipe'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2635,7 +2722,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/random'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/random'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2656,7 +2745,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@stablelib/ed25519'],'''This software is licensed under the MIT license:
+  LicenseEntryWithLineBreaks([
+    '@stablelib/ed25519'
+  ], '''This software is licensed under the MIT license:
 
 Copyright (C) 2016 Dmitry Chestnykh
 
@@ -2713,7 +2804,9 @@ IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
 OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/logger'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/logger'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2734,7 +2827,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/events'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/events'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2755,7 +2850,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/time'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/time'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2776,7 +2873,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/heartbeat'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/heartbeat'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2797,7 +2896,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['safe-json-utils'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'safe-json-utils'
+  ], '''MIT License
 
 Copyright (c) 2020 Pedro Gomes
 
@@ -2818,7 +2919,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/keyvaluestorage'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/keyvaluestorage'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect
 
@@ -2839,7 +2942,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['quick-format-unescaped'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'quick-format-unescaped'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2016-2019 David Mark Clements
 
@@ -2860,7 +2965,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['pino'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'pino'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2016-2019 Matteo Collina, David Mark Clements and the Pino contributors
 
@@ -2884,7 +2991,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['copy-to-clipboard'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'copy-to-clipboard'
+  ], '''MIT License
 
 Copyright (c) 2017 sudodoki <smd.deluzion@gmail.com>
 
@@ -2905,7 +3014,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['dijkstrajs'],'''```
+  LicenseEntryWithLineBreaks([
+    'dijkstrajs'
+  ], '''```
 Dijkstra path-finding functions. Adapted from the Dijkstar Python project.
 
 Copyright (C) 2008
@@ -2924,7 +3035,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```'''),
-LicenseEntryWithLineBreaks(['isarray'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'isarray'
+  ], '''MIT License
 
 Copyright (c) 2013 Julian Gruber <julian@juliangruber.com>
 
@@ -2945,7 +3058,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['qrcode'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'qrcode'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2012 Ryan Day
 
@@ -2954,7 +3069,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/window-getters'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/window-getters'
+  ], '''MIT License
 
 Copyright (c) 2022 WalletConnect, Inc.
 
@@ -2975,7 +3092,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@walletconnect/window-metadata'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/window-metadata'
+  ], '''MIT License
 
 Copyright (c) 2020 Pedro Gomes
 
@@ -2996,7 +3115,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['fast-deep-equal'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'fast-deep-equal'
+  ], '''MIT License
 
 Copyright (c) 2017 Evgeny Poberezkin
 
@@ -3017,7 +3138,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['is-stream'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'is-stream'
+  ], '''MIT License
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com)
 
@@ -3026,7 +3149,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['lodash'],'''Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+  LicenseEntryWithLineBreaks([
+    'lodash'
+  ], '''Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
 
 Based on Underscore.js, copyright Jeremy Ashkenas,
 DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>
@@ -3073,7 +3198,9 @@ Files located in the node_modules and vendor directories are externally
 maintained libraries used by this software which have their own
 licenses; we recommend you read them, as their terms may differ from the
 terms above.'''),
-LicenseEntryWithLineBreaks(['bowser'],'''Copyright 2015, Dustin Diaz (the "Original Author")
+  LicenseEntryWithLineBreaks([
+    'bowser'
+  ], '''Copyright 2015, Dustin Diaz (the "Original Author")
 All rights reserved.
 
 MIT License
@@ -3112,7 +3239,9 @@ OTHER DEALINGS IN THE SOFTWARE.
 Except where noted, this license applies to any and all software
 programs and associated documentation files created by the
 Original Author, when distributed with the Software.'''),
-LicenseEntryWithLineBreaks(['lodash.merge'],'''Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
+  LicenseEntryWithLineBreaks([
+    'lodash.merge'
+  ], '''Copyright OpenJS Foundation and other contributors <https://openjsf.org/>
 
 Based on Underscore.js, copyright Jeremy Ashkenas,
 DocumentCloud and Investigative Reporters & Editors <http://underscorejs.org/>
@@ -3159,7 +3288,9 @@ Files located in the node_modules and vendor directories are externally
 maintained libraries used by this software which have their own
 licenses; we recommend you read them, as their terms may differ from the
 terms above.'''),
-LicenseEntryWithLineBreaks(['loglevel'],'''Copyright (c) 2013 Tim Perry
+  LicenseEntryWithLineBreaks([
+    'loglevel'
+  ], '''Copyright (c) 2013 Tim Perry
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -3181,7 +3312,9 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['minimalistic-assert'],'''Copyright 2015 Calvin Metcalf
+  LicenseEntryWithLineBreaks([
+    'minimalistic-assert'
+  ], '''Copyright 2015 Calvin Metcalf
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
@@ -3194,7 +3327,9 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE
 OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['secp256k1'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'secp256k1'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2014-2016 secp256k1-node contributors
 
@@ -3218,7 +3353,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['ethereum-cryptography'],'''bip39-without-wordlist.js is based on bip39, which is released under the
+  LicenseEntryWithLineBreaks([
+    'ethereum-cryptography'
+  ], '''bip39-without-wordlist.js is based on bip39, which is released under the
 ISC license by the Wei Lu and Daniel Cousens. Its license complete license can be found here: https://github.com/bitcoinjs/bip39/blob/0a0e74eac9f4b753939dd6368984900fdba1975b/LICENSE
 
 hdkey-without-crypto.js is based on hdkey, which is released under the
@@ -3244,7 +3381,9 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['rlp'],'''Mozilla Public License Version 2.0
+  LicenseEntryWithLineBreaks([
+    'rlp'
+  ], '''Mozilla Public License Version 2.0
 ==================================
 
 1. Definitions
@@ -3617,7 +3756,9 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.'''),
-LicenseEntryWithLineBreaks(['ethereumjs-util'],'''Mozilla Public License Version 2.0
+  LicenseEntryWithLineBreaks([
+    'ethereumjs-util'
+  ], '''Mozilla Public License Version 2.0
 ==================================
 
 1. Definitions
@@ -3990,7 +4131,9 @@ Exhibit B - "Incompatible With Secondary Licenses" Notice
 
   This Source Code Form is "Incompatible With Secondary Licenses", as
   defined by the Mozilla Public License, v. 2.0.'''),
-LicenseEntryWithLineBreaks(['pump'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'pump'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2014 Mathias Buus
 
@@ -4011,7 +4154,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['wrappy'],'''The ISC License
+  LicenseEntryWithLineBreaks([
+    'wrappy'
+  ], '''The ISC License
 
 Copyright (c) Isaac Z. Schlueter and Contributors
 
@@ -4026,7 +4171,9 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['once'],'''The ISC License
+  LicenseEntryWithLineBreaks([
+    'once'
+  ], '''The ISC License
 
 Copyright (c) Isaac Z. Schlueter and Contributors
 
@@ -4041,7 +4188,9 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['end-of-stream'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'end-of-stream'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2014 Mathias Buus
 
@@ -4062,7 +4211,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['eth-rpc-errors'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'eth-rpc-errors'
+  ], '''MIT License
 
 Copyright (c) 2019 MetaMask
 
@@ -4083,7 +4234,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['fast-safe-stringify'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'fast-safe-stringify'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2016 David Mark Clements
 Copyright (c) 2017 David Mark Clements & Matteo Collina
@@ -4106,7 +4259,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['keccak'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'keccak'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2016-2019 https://github.com/cryptocoinjs/keccak contributors
 
@@ -4127,7 +4282,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['base64url'],'''Copyright (c) 2013–2016 Brian J. Brennan
+  LicenseEntryWithLineBreaks([
+    'base64url'
+  ], '''Copyright (c) 2013–2016 Brian J. Brennan
 
 Permission is hereby granted, free of charge, to any person obtaining a
 copy of this software and associated documentation files (the
@@ -4147,7 +4304,9 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['randombytes'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'randombytes'
+  ], '''MIT License
 
 Copyright (c) 2017 crypto-browserify
 
@@ -4168,7 +4327,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@project-serum/sol-wallet-adapter'],'''Copyright 2020 Serum Foundation
+  LicenseEntryWithLineBreaks([
+    '@project-serum/sol-wallet-adapter'
+  ], '''Copyright 2020 Serum Foundation
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -4181,7 +4342,9 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.'''),
-LicenseEntryWithLineBreaks(['crypto-js'],'''# License
+  LicenseEntryWithLineBreaks([
+    'crypto-js'
+  ], '''# License
 
 [The MIT License (MIT)](http://opensource.org/licenses/MIT)
 
@@ -4205,7 +4368,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@particle-network/auth'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@particle-network/auth'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -4406,7 +4571,9 @@ LicenseEntryWithLineBreaks(['@particle-network/auth'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['@particle-network/solana-wallet'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@particle-network/solana-wallet'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -4607,7 +4774,9 @@ LicenseEntryWithLineBreaks(['@particle-network/solana-wallet'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['yallist'],'''The ISC License
+  LicenseEntryWithLineBreaks([
+    'yallist'
+  ], '''The ISC License
 
 Copyright (c) Isaac Z. Schlueter and Contributors
 
@@ -4622,7 +4791,9 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['lru-cache'],'''The ISC License
+  LicenseEntryWithLineBreaks([
+    'lru-cache'
+  ], '''The ISC License
 
 Copyright (c) Isaac Z. Schlueter and Contributors
 
@@ -4637,7 +4808,9 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['semver'],'''The ISC License
+  LicenseEntryWithLineBreaks([
+    'semver'
+  ], '''The ISC License
 
 Copyright (c) Isaac Z. Schlueter and Contributors
 
@@ -4652,7 +4825,9 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
 ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@ledgerhq/devices'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@ledgerhq/devices'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -4853,7 +5028,9 @@ LicenseEntryWithLineBreaks(['@ledgerhq/devices'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['sdp'],'''Copyright (c) 2017 Philipp Hancke
+  LicenseEntryWithLineBreaks([
+    'sdp'
+  ], '''Copyright (c) 2017 Philipp Hancke
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -4872,7 +5049,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['rtcpeerconnection-shim'],'''Copyright (c) 2017 Philipp Hancke. All rights reserved.
+  LicenseEntryWithLineBreaks([
+    'rtcpeerconnection-shim'
+  ], '''Copyright (c) 2017 Philipp Hancke. All rights reserved.
 
 Copyright (c) 2014, The WebRTC project authors. All rights reserved.
 
@@ -4903,7 +5082,9 @@ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
 THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.'''),
-LicenseEntryWithLineBreaks(['react-qr-reader'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'react-qr-reader'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2017 Thomas Billiet
 
@@ -4924,14 +5105,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['qr.js'],'''Copyright (c) 2013 Roman Shtylman
+  LicenseEntryWithLineBreaks([
+    'qr.js'
+  ], '''Copyright (c) 2013 Roman Shtylman
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['qrcode.react'],'''ISC License
+  LicenseEntryWithLineBreaks([
+    'qrcode.react'
+  ], '''ISC License
 
 Copyright (c) 2015, Paul O’Shannessy
 
@@ -4946,7 +5131,9 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['react-lifecycles-compat'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'react-lifecycles-compat'
+  ], '''MIT License
 
 Copyright (c) 2013-present, Facebook, Inc.
 
@@ -4967,7 +5154,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['exenv'],'''BSD License
+  LicenseEntryWithLineBreaks([
+    'exenv'
+  ], '''BSD License
 
 For React software
 
@@ -4998,7 +5187,9 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
 ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.'''),
-LicenseEntryWithLineBreaks(['warning'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'warning'
+  ], '''MIT License
 
 Copyright (c) 2013-present, Facebook, Inc.
 
@@ -5019,7 +5210,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['prop-types'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'prop-types'
+  ], '''MIT License
 
 Copyright (c) 2013-present, Facebook, Inc.
 
@@ -5040,7 +5233,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['react-modal'],'''Copyright (c) 2017 Ryan Florence
+  LicenseEntryWithLineBreaks([
+    'react-modal'
+  ], '''Copyright (c) 2017 Ryan Florence
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
@@ -5059,7 +5254,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['scheduler'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'scheduler'
+  ], '''MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
 
@@ -5080,7 +5277,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['react-dom'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'react-dom'
+  ], '''MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
 
@@ -5101,7 +5300,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@apocentre/alias-sampling'],'''GNU GENERAL PUBLIC LICENSE
+  LicenseEntryWithLineBreaks([
+    '@apocentre/alias-sampling'
+  ], '''GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
 
  Copyright (C) 1989, 1991 Free Software Foundation, Inc., <http://fsf.org/>
@@ -5440,7 +5641,9 @@ proprietary programs.  If your program is a subroutine library, you may
 consider it more useful to permit linking proprietary applications with the
 library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.'''),
-LicenseEntryWithLineBreaks(['jsbi'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    'jsbi'
+  ], '''Apache License
                            Version 2.0, January 2004
                         https://www.apache.org/licenses/
 
@@ -5616,7 +5819,9 @@ LicenseEntryWithLineBreaks(['jsbi'],'''Apache License
       of your accepting any such warranty or additional liability.
 
    END OF TERMS AND CONDITIONS'''),
-LicenseEntryWithLineBreaks(['bignumber.js'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'bignumber.js'
+  ], '''The MIT License (MIT)
 =====================
 
 Copyright © `<2022>` `Michael Mclaughlin`
@@ -5641,7 +5846,9 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['is-nan'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'is-nan'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2014 Jordan Harband
 
@@ -5661,7 +5868,9 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['has-property-descriptors'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'has-property-descriptors'
+  ], '''MIT License
 
 Copyright (c) 2022 Inspect JS
 
@@ -5682,7 +5891,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['object-keys'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'object-keys'
+  ], '''The MIT License (MIT)
 
 Copyright (C) 2013 Jordan Harband
 
@@ -5703,7 +5914,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['define-properties'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'define-properties'
+  ], '''The MIT License (MIT)
 
 Copyright (C) 2015 Jordan Harband
 
@@ -5724,7 +5937,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['object-is'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'object-is'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2014 Jordan Harband
 
@@ -5744,7 +5959,9 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['es6-object-assign'],'''Copyright (c) 2015-2017 Rubén Norte <rubennorte@gmail.com>
+  LicenseEntryWithLineBreaks([
+    'es6-object-assign'
+  ], '''Copyright (c) 2015-2017 Rubén Norte <rubennorte@gmail.com>
 
 MIT License
 
@@ -5766,7 +5983,9 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['is-typed-array'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'is-typed-array'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2015 Jordan Harband
 
@@ -5787,7 +6006,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['gopd'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'gopd'
+  ], '''MIT License
 
 Copyright (c) 2022 Jordan Harband
 
@@ -5808,7 +6029,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['available-typed-arrays'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'available-typed-arrays'
+  ], '''MIT License
 
 Copyright (c) 2020 Inspect JS
 
@@ -5829,7 +6052,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['is-callable'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'is-callable'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2015 Jordan Harband
 
@@ -5850,7 +6075,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['for-each'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'for-each'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2012 Raynos.
 
@@ -5871,7 +6098,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['which-typed-array'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'which-typed-array'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2015 Jordan Harband
 
@@ -5892,7 +6121,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['is-generator-function'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'is-generator-function'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2014 Jordan Harband
 
@@ -5912,7 +6143,9 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['has'],'''Copyright (c) 2013 Thiago de Arruda
+  LicenseEntryWithLineBreaks([
+    'has'
+  ], '''Copyright (c) 2013 Thiago de Arruda
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
@@ -5934,7 +6167,9 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['function-bind'],'''Copyright (c) 2013 Raynos.
+  LicenseEntryWithLineBreaks([
+    'function-bind'
+  ], '''Copyright (c) 2013 Raynos.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -5953,7 +6188,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['get-intrinsic'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'get-intrinsic'
+  ], '''MIT License
 
 Copyright (c) 2020 Jordan Harband
 
@@ -5974,7 +6211,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['call-bind'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'call-bind'
+  ], '''MIT License
 
 Copyright (c) 2020 Jordan Harband
 
@@ -5995,7 +6234,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['has-symbols'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'has-symbols'
+  ], '''MIT License
 
 Copyright (c) 2016 Jordan Harband
 
@@ -6016,7 +6257,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['has-tostringtag'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'has-tostringtag'
+  ], '''MIT License
 
 Copyright (c) 2021 Inspect JS
 
@@ -6037,7 +6280,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['is-arguments'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'is-arguments'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2014 Jordan Harband
 
@@ -6057,7 +6302,9 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['util'],'''Copyright Joyent, Inc. and other Node contributors. All rights reserved.
+  LicenseEntryWithLineBreaks([
+    'util'
+  ], '''Copyright Joyent, Inc. and other Node contributors. All rights reserved.
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to
 deal in the Software without restriction, including without limitation the
@@ -6075,7 +6322,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['assert'],'''Copyright Joyent, Inc. and other Node contributors. All rights reserved.
+  LicenseEntryWithLineBreaks([
+    'assert'
+  ], '''Copyright Joyent, Inc. and other Node contributors. All rights reserved.
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to
 deal in the Software without restriction, including without limitation the
@@ -6093,7 +6342,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['cbor-sync'],'''Copyright (c) 2014 ARM Ltd.
+  LicenseEntryWithLineBreaks([
+    'cbor-sync'
+  ], '''Copyright (c) 2014 ARM Ltd.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -6112,7 +6363,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@ngraveio/bc-ur'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@ngraveio/bc-ur'
+  ], '''MIT License
 
 Copyright (c) 2021 NGRAVE
 
@@ -6133,7 +6386,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['stream-browserify'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'stream-browserify'
+  ], '''MIT License
 
 Copyright (c) James Halliday
 
@@ -6153,7 +6408,9 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['cipher-base'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'cipher-base'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2017 crypto-browserify contributors
 
@@ -6174,7 +6431,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['sha.js'],'''Copyright (c) 2013-2018 sha.js contributors
+  LicenseEntryWithLineBreaks([
+    'sha.js'
+  ], '''Copyright (c) 2013-2018 sha.js contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -6222,7 +6481,9 @@ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
 ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.'''),
-LicenseEntryWithLineBreaks(['ripemd160'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'ripemd160'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2016 crypto-browserify
 
@@ -6243,7 +6504,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['string_decoder'],'''Node.js is licensed for use as follows:
+  LicenseEntryWithLineBreaks([
+    'string_decoder'
+  ], '''Node.js is licensed for use as follows:
 
 """
 Copyright Node.js contributors. All rights reserved.
@@ -6290,7 +6553,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
 """'''),
-LicenseEntryWithLineBreaks(['util-deprecate'],'''(The MIT License)
+  LicenseEntryWithLineBreaks([
+    'util-deprecate'
+  ], '''(The MIT License)
 
 Copyright (c) 2014 Nathan Rajlich <nathan@tootallnate.net>
 
@@ -6314,7 +6579,9 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['events'],'''MIT
+  LicenseEntryWithLineBreaks([
+    'events'
+  ], '''MIT
 
 Copyright Joyent, Inc. and other Node contributors.
 
@@ -6336,7 +6603,9 @@ NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
 DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['readable-stream'],'''Node.js is licensed for use as follows:
+  LicenseEntryWithLineBreaks([
+    'readable-stream'
+  ], '''Node.js is licensed for use as follows:
 
 """
 Copyright Node.js contributors. All rights reserved.
@@ -6383,7 +6652,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 IN THE SOFTWARE.
 """'''),
-LicenseEntryWithLineBreaks(['hash-base'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'hash-base'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2016 Kirill Fomichev
 
@@ -6404,7 +6675,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['md5.js'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'md5.js'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2016 Kirill Fomichev
 
@@ -6425,7 +6698,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['inherits'],'''The ISC License
+  LicenseEntryWithLineBreaks([
+    'inherits'
+  ], '''The ISC License
 
 Copyright (c) Isaac Z. Schlueter
 
@@ -6440,7 +6715,9 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['create-hash'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'create-hash'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2017 crypto-browserify contributors
 
@@ -6461,7 +6738,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['bs58check'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'bs58check'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2017 Daniel Cousens
 
@@ -6482,7 +6761,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['tslib'],'''Copyright (c) Microsoft Corporation.
+  LicenseEntryWithLineBreaks([
+    'tslib'
+  ], '''Copyright (c) Microsoft Corporation.
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted.
@@ -6494,7 +6775,9 @@ INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
 LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
 OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@keystonehq/bc-ur-registry'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@keystonehq/bc-ur-registry'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -6695,7 +6978,9 @@ LicenseEntryWithLineBreaks(['@keystonehq/bc-ur-registry'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['object-assign'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'object-assign'
+  ], '''The MIT License (MIT)
 
 Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)
 
@@ -6716,7 +7001,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['react'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    'react'
+  ], '''MIT License
 
 Copyright (c) Facebook, Inc. and its affiliates.
 
@@ -6737,7 +7024,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@solana/wallet-adapter-base'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    '@solana/wallet-adapter-base'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -6938,7 +7227,9 @@ LicenseEntryWithLineBreaks(['@solana/wallet-adapter-base'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['eventemitter3'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'eventemitter3'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2014 Arnout Kazemier
 
@@ -6959,7 +7250,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['@babel/runtime'],'''MIT License
+  LicenseEntryWithLineBreaks([
+    '@babel/runtime'
+  ], '''MIT License
 
 Copyright (c) 2014-present Sebastian McKenzie and other contributors
 
@@ -6981,7 +7274,9 @@ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
 LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['rpc-websockets'],'''Copyright (c) Elpheria j.d.o.o.
+  LicenseEntryWithLineBreaks([
+    'rpc-websockets'
+  ], '''Copyright (c) Elpheria j.d.o.o.
 
 rpc-websockets is an Open Source project licensed under the terms of
 the LGPLv3 license. Please see <https://www.gnu.org/licenses/lgpl-3.0.html>
@@ -6991,7 +7286,9 @@ rpc-websockets Pro has a commercial-friendly license allowing private forks
 and modifications of rpc-websockets.
 Please see https://www.elpheria.com/products/rpc-websockets-pro.html
 or email us at info@elpheria.com for more detail.'''),
-LicenseEntryWithLineBreaks(['uuid'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'uuid'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2010-2020 Robert Kieffer and other contributors
 
@@ -7000,7 +7297,9 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['jayson'],'''(The MIT License)
+  LicenseEntryWithLineBreaks([
+    'jayson'
+  ], '''(The MIT License)
 
 Copyright (c) 2011-2012 Tedde Lundgren <mail@tedeh.net>
 
@@ -7022,7 +7321,9 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['bigint-buffer'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    'bigint-buffer'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -7223,7 +7524,9 @@ LicenseEntryWithLineBreaks(['bigint-buffer'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['@solana/buffer-layout'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    '@solana/buffer-layout'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2015-2018 Peter A. Bigot
 
@@ -7244,7 +7547,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['text-encoding-utf-8'],'''The encoding indexes, algorithms, and many comments in the code
+  LicenseEntryWithLineBreaks([
+    'text-encoding-utf-8'
+  ], '''The encoding indexes, algorithms, and many comments in the code
 derive from the Encoding Standard https://encoding.spec.whatwg.org/
 
 Otherwise...
@@ -7273,7 +7578,9 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>'''),
-LicenseEntryWithLineBreaks(['borsh'],'''Apache License
+  LicenseEntryWithLineBreaks([
+    'borsh'
+  ], '''Apache License
                            Version 2.0, January 2004
                         http://www.apache.org/licenses/
 
@@ -7474,7 +7781,9 @@ LicenseEntryWithLineBreaks(['borsh'],'''Apache License
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.'''),
-LicenseEntryWithLineBreaks(['safe-buffer'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'safe-buffer'
+  ], '''The MIT License (MIT)
 
 Copyright (c) Feross Aboukhadijeh
 
@@ -7495,7 +7804,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['base-x'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'base-x'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2018 base-x contributors
 Copyright (c) 2014-2018 The Bitcoin Core developers
@@ -7517,7 +7828,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['bn.js'],'''Copyright Fedor Indutny, 2015.
+  LicenseEntryWithLineBreaks([
+    'bn.js'
+  ], '''Copyright Fedor Indutny, 2015.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -7536,7 +7849,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['ieee754'],'''Copyright 2008 Fair Oaks Labs, Inc.
+  LicenseEntryWithLineBreaks([
+    'ieee754'
+  ], '''Copyright 2008 Fair Oaks Labs, Inc.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -7547,7 +7862,9 @@ Redistribution and use in source and binary forms, with or without modification,
 3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.'''),
-LicenseEntryWithLineBreaks(['base64-js'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'base64-js'
+  ], '''The MIT License (MIT)
 
 Copyright (c) 2014 Jameson Little
 
@@ -7568,7 +7885,9 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['buffer'],'''The MIT License (MIT)
+  LicenseEntryWithLineBreaks([
+    'buffer'
+  ], '''The MIT License (MIT)
 
 Copyright (c) Feross Aboukhadijeh, and other contributors.
 
@@ -7589,75 +7908,118 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.'''),
-LicenseEntryWithLineBreaks(['bs58'],'''MIT
+  LicenseEntryWithLineBreaks(
+      ['bs58'], '''MIT
 
 https://github.com/cryptocoinjs/bs58'''),
-LicenseEntryWithLineBreaks(['@blocto/sdk'],'''Yang Lin - MIT'''),
-LicenseEntryWithLineBreaks(['@keystonehq/sol-keyring'],'''soralit <soralitria@gmail.com> - ISC'''),
-LicenseEntryWithLineBreaks(['@keystonehq/bc-ur-registry-sol'],'''soralit <soralitria@gmail.com> - ISC'''),
-LicenseEntryWithLineBreaks(['@keystonehq/sdk'],'''aaronisme <aarondongchen@gmail.com> - ISC
+  LicenseEntryWithLineBreaks(['@blocto/sdk'], '''Yang Lin - MIT'''),
+  LicenseEntryWithLineBreaks(
+      ['@keystonehq/sol-keyring'], '''soralit <soralitria@gmail.com> - ISC'''),
+  LicenseEntryWithLineBreaks(['@keystonehq/bc-ur-registry-sol'],
+      '''soralit <soralitria@gmail.com> - ISC'''),
+  LicenseEntryWithLineBreaks([
+    '@keystonehq/sdk'
+  ], '''aaronisme <aarondongchen@gmail.com> - ISC
 
 https://github.com/KeystoneHQ/keystone-airgaped-base#readme'''),
-LicenseEntryWithLineBreaks(['json-rpc-random-id'],'''ISC
+  LicenseEntryWithLineBreaks(['json-rpc-random-id'],
+      '''ISC
 
 https://github.com/kumavis/json-rpc-random-id#readme'''),
-LicenseEntryWithLineBreaks(['elliptic'],'''Fedor Indutny <fedor@indutny.com> - MIT
+  LicenseEntryWithLineBreaks([
+    'elliptic'
+  ], '''Fedor Indutny <fedor@indutny.com> - MIT
 
 https://github.com/indutny/elliptic'''),
-LicenseEntryWithLineBreaks(['minimalistic-crypto-utils'],'''Fedor Indutny <fedor@indutny.com> - MIT
+  LicenseEntryWithLineBreaks([
+    'minimalistic-crypto-utils'
+  ], '''Fedor Indutny <fedor@indutny.com> - MIT
 
 https://github.com/indutny/minimalistic-crypto-utils#readme'''),
-LicenseEntryWithLineBreaks(['brorand'],'''Fedor Indutny <fedor@indutny.com> - MIT
+  LicenseEntryWithLineBreaks([
+    'brorand'
+  ], '''Fedor Indutny <fedor@indutny.com> - MIT
 
 https://github.com/indutny/brorand'''),
-LicenseEntryWithLineBreaks(['hash.js'],'''Fedor Indutny <fedor@indutny.com> - MIT
+  LicenseEntryWithLineBreaks([
+    'hash.js'
+  ], '''Fedor Indutny <fedor@indutny.com> - MIT
 
 https://github.com/indutny/hash.js'''),
-LicenseEntryWithLineBreaks(['hmac-drbg'],'''Fedor Indutny <fedor@indutny.com> - MIT
+  LicenseEntryWithLineBreaks([
+    'hmac-drbg'
+  ], '''Fedor Indutny <fedor@indutny.com> - MIT
 
 https://github.com/indutny/hmac-drbg#readme'''),
-LicenseEntryWithLineBreaks(['@walletconnect/qrcode-modal'],'''WalletConnect, Inc. <walletconnect.com> - Apache-2.0
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/qrcode-modal'
+  ], '''WalletConnect, Inc. <walletconnect.com> - Apache-2.0
 
 https://github.com/WalletConnect/walletconnect-monorepo/'''),
-LicenseEntryWithLineBreaks(['toggle-selection'],'''sudodoki <smd.deluzion@gmail.com> (sudodoki.name) - MIT
+  LicenseEntryWithLineBreaks([
+    'toggle-selection'
+  ], '''sudodoki <smd.deluzion@gmail.com> (sudodoki.name) - MIT
 
 git+https://github.com/sudodoki/toggle-selection'''),
-LicenseEntryWithLineBreaks(['@toruslabs/solana-embed'],'''Torus Labs - ISC
+  LicenseEntryWithLineBreaks([
+    '@toruslabs/solana-embed'
+  ], '''Torus Labs - ISC
 
 https://github.com/torusresearch/solana-embed#readme'''),
-LicenseEntryWithLineBreaks(['@fractalwagmi/solana-wallet-adapter'],'''ISC
+  LicenseEntryWithLineBreaks(['@fractalwagmi/solana-wallet-adapter'],
+      '''ISC
 
 https://github.com/fractalwagmi/solana-wallet-adapter#readme'''),
-LicenseEntryWithLineBreaks(['@walletconnect/browser-utils'],'''WalletConnect, Inc. <walletconnect.com> - Apache-2.0
+  LicenseEntryWithLineBreaks([
+    '@walletconnect/browser-utils'
+  ], '''WalletConnect, Inc. <walletconnect.com> - Apache-2.0
 
 https://github.com/WalletConnect/walletconnect-monorepo/'''),
-LicenseEntryWithLineBreaks(['@solflare-wallet/sdk'],'''Solflare Developers <developers@solflare.com> - Apache-2.0
+  LicenseEntryWithLineBreaks([
+    '@solflare-wallet/sdk'
+  ], '''Solflare Developers <developers@solflare.com> - Apache-2.0
 
 https://github.com/solflare-wallet/solflare-sdk#readme'''),
-LicenseEntryWithLineBreaks(['salmon-adapter-sdk'],'''Apache-2.0
+  LicenseEntryWithLineBreaks(['salmon-adapter-sdk'],
+      '''Apache-2.0
 
 https://github.com/salmonw/salmon-adapter-sdk#readme'''),
-LicenseEntryWithLineBreaks(['preact-compat'],'''MIT
+  LicenseEntryWithLineBreaks(['preact-compat'],
+      '''MIT
 
 https://www.npmjs.com/package/preact-compat'''),
-LicenseEntryWithLineBreaks(['@ledgerhq/errors'],'''Apache-2.0
+  LicenseEntryWithLineBreaks([
+    '@ledgerhq/errors'
+  ], '''Apache-2.0
 
 https://github.com/LedgerHQ/ledger-live/tree/develop/libs/ledgerjs/packages/errors'''),
-LicenseEntryWithLineBreaks(['@ledgerhq/hw-transport'],'''Apache-2.0
+  LicenseEntryWithLineBreaks([
+    '@ledgerhq/hw-transport'
+  ], '''Apache-2.0
 
 https://github.com/LedgerHQ/ledger-live/tree/develop/libs/ledgerjs/packages/hw-transport'''),
-LicenseEntryWithLineBreaks(['@ledgerhq/logs'],'''Apache-2.0
+  LicenseEntryWithLineBreaks([
+    '@ledgerhq/logs'
+  ], '''Apache-2.0
 
 https://github.com/LedgerHQ/ledger-live/tree/develop/libs/ledgerjs/packages/logs'''),
-LicenseEntryWithLineBreaks(['@toruslabs/base-controllers'],'''Torus Labs - ISC
+  LicenseEntryWithLineBreaks([
+    '@toruslabs/base-controllers'
+  ], '''Torus Labs - ISC
 
 https://github.com/torusresearch/controllers#readme'''),
-LicenseEntryWithLineBreaks(['@toruslabs/openlogin-jrpc'],'''Torus Labs - ISC
+  LicenseEntryWithLineBreaks([
+    '@toruslabs/openlogin-jrpc'
+  ], '''Torus Labs - ISC
 
 https://github.com/torusresearch/OpenLoginSdk#readme'''),
-LicenseEntryWithLineBreaks(['@toruslabs/openlogin-utils'],'''Torus Labs - ISC
+  LicenseEntryWithLineBreaks([
+    '@toruslabs/openlogin-utils'
+  ], '''Torus Labs - ISC
 
 https://github.com/torusresearch/OpenLoginSdk#readme'''),
-LicenseEntryWithLineBreaks(['hooks'],'''MIT
+  LicenseEntryWithLineBreaks(
+      ['hooks'], '''MIT
 
-https://www.npmjs.com/package/hooks''')];
+https://www.npmjs.com/package/hooks''')
+];

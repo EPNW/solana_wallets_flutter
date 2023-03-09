@@ -3,6 +3,20 @@ const webpack = require('webpack');
 const LicenseWebpackPlugin = require('license-webpack-plugin').LicenseWebpackPlugin;
 const TerserPlugin = require('terser-webpack-plugin');
 
+class DartFromatPlugin {
+    apply(compiler) {
+        compiler.hooks.afterEmit.tapAsync('DartFormat', (compilation, callback) => {
+            var dartAssets = [];
+            compilation.getAssets().forEach((asset) => {
+                if (asset.name.endsWith('.dart')) {
+                    dartAssets.push(path.join(process.cwd(), asset.name));
+                }
+            });
+            dartFormatAll(dartAssets, callback);
+        });
+    }
+}
+
 module.exports = {
     entry: './src/loader.js',
     output: {
@@ -13,8 +27,7 @@ module.exports = {
     resolve: {
         fallback: {
             "stream": require.resolve("stream-browserify"),
-            "crypto": require.resolve("crypto-browserify"),
-            "buffer": require.resolve("buffer")
+            "crypto": require.resolve("crypto-browserify")
         }
     },
     optimization: {
@@ -37,10 +50,12 @@ module.exports = {
             outputFilename: '../lib/src/js_licenses.dart'
         }),
         new webpack.ProvidePlugin({
-            Buffer: ['buffer', 'Buffer'],
+            Buffer: ['buffer', 'Buffer']
         }),
+        new DartFromatPlugin()
     ]
 }
+
 
 function formatLicenses(modules) {
     var licenses = [];
@@ -75,7 +90,7 @@ function formatLicenses(modules) {
                 //console.log(module);
                 //throw new Error('Can not find author or url for ' + module.packageJson.name);
                 fallback = 'https://www.npmjs.com/package/' + module.name;
-                console.warn('\033[35mIMPORTANT: Can not find author or url for ' + module.packageJson.name + '! Falling back to ' + fallback + '. Make sure that this website actually exists!\033[0m');
+                logImportant('Can not find author or url for ' + module.packageJson.name + '! Falling back to ' + fallback + '. Make sure that this website actually exists!');
                 text += '\n\n';
                 text += fallback;
             }
@@ -90,5 +105,35 @@ function formatLicenses(modules) {
     return dartCodeStart + licenses.join(',\r\n') + dartCodeEnd;
 }
 
-const dartCodeStart = '//\r\n// Generated file. Do not edit.\r\n//\r\n\r\n// ignore_for_file: directives_ordering\r\n// ignore_for_file: lines_longer_than_80_chars\r\n// ignore_for_file: depend_on_referenced_packages\r\n\r\nimport \'package:flutter/foundation.dart\';\r\n\r\nvoid registerJavaScriptLicenses() {\r\n  LicenseRegistry.addLicense(() => new Stream.fromIterable(_entries));\r\n}\r\n\r\nconst List<LicenseEntry> _entries = [';
+const dartCodeStart = '//\r\n// GENERATED FILE. DO NOT EDIT!\r\n//\r\n\r\n// ignore_for_file: directives_ordering\r\n// ignore_for_file: lines_longer_than_80_chars\r\n// ignore_for_file: depend_on_referenced_packages\r\n\r\nimport \'package:flutter/foundation.dart\';\r\n\r\nvoid registerJavaScriptLicenses() {\r\n  LicenseRegistry.addLicense(() => new Stream.fromIterable(_entries));\r\n}\r\n\r\nconst List<LicenseEntry> _entries = [';
 const dartCodeEnd = '];';
+
+//https://nodejs.org/docs/v0.4.6/api/child_processes.html#child_process.exec
+function dartFormatAll(dartFiles, callback) {
+    const exec = require('child_process').exec;
+    function formatRecursion(files, recursionCallback, errorCount) {
+        if (files.length == 0) {
+            recursionCallback(errorCount);
+        } else {
+            var current = files.pop();
+            exec('dart format ' + current, (error) => {
+                if (error !== null) {
+                    logImportant('Could not format ' + current + ' due to:');
+                    console.warn(error);
+                    errorCount++;
+                }
+                formatRecursion(files, recursionCallback, errorCount);
+            });
+        }
+    }
+    formatRecursion(dartFiles, (errorCount) => {
+        if (errorCount > 0) {
+            logImportant('Code generation successful, but formating of some dart files failed. Try to format the respective files manually!');
+        }
+        callback();
+    }, 0);
+}
+
+function logImportant(msg) {
+    console.warn('\033[35mIMPORTANT: ' + msg + '\033[0m');
+}
