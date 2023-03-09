@@ -7,7 +7,7 @@ It wraps and includes solanas official [`@solana/wallet-adapter-wallets`](https:
 Currently this plugin wraps `@solana/wallet-adapter-wallets` version `0.19.15` and provides access to all wallet adapters included in this version. If there is an other version you want to use, see `tool/README.md` to learn how to build it yourself.
 
 ## Theory needed to understand the API doc
-In flutter web the [`js`](https://pub.dev/packages/js) package can be used to manipulate JavaScript objects what is done by this plugin. We can also use the `js` package to call JavaScript functions. Furthermore there exists objects that are of the `Object` type in flutter, but "are linked to" or "proxy" a JavaScript object. We can now call a function using the `js` package and use a "proxied" object as parameter. The JavaScript function then has access to the "real" object. The term "pass the wallet adapter object to JavaScript" from above means just that.
+In flutter web the [`js` package](https://pub.dev/packages/js) can be used to manipulate JavaScript objects what is done by this plugin. We can also use the [`js` package](https://pub.dev/packages/js) to call JavaScript functions. Furthermore there exists objects that are of the `Object` type in flutter, but "are linked to" or "proxy" a JavaScript object. We can now call a function using the [`js` package](https://pub.dev/packages/js) and use a "proxied" object as parameter. The JavaScript function then has access to the "real" object. The term "pass the wallet adapter object to JavaScript" from above means just that.
 
 ## UI
 The library `solana_wallets_flutter_ui` contains functions to show a dialog where the user can pick the preffered wallet. You don't have to use it and can create your own dialog.
@@ -47,7 +47,7 @@ if (window.dartInteropt == undefined) {
 
 window.dartInteropt.my_project = my_project;
 ```
-Then you can interact with it from dart using the `js` property of [`Adapter`] like:
+Then you can interact with it from dart using the `js` property of `Adapter` like:
 ```dart
 @JS('window.dartInteropt.my_project')
 library my_project;
@@ -69,10 +69,10 @@ Future<BaseWalletAdapter> getPhantom() async {
     // see example/lib/main.dart how to do this!
 }
 ```
-To get a better unterstanding of what's going on here, read the documentation of the [`js`](https://pub.dev/packages/js) package.
+To get a better unterstanding of what's going on here, read the documentation of the [`js` package](https://pub.dev/packages/js).
 
 ### Usage in flutter
 This plugin only provides access to the users wallet, it is out of scope to create or send transactions. The `BaseWalletAdapter` has a `sendTransaction` method, but this is just a proxied JavaScript function and explained in detail in its API documentation (make sure to read the "theory" section to understand it), so it might be hard to use this function with "pure" flutter (because it requires you to provide a JavaScript `@solana/web3.js/Connection` object). However, you can use a package like [`solana`](https://pub.dev/packages/solana) to create and send transactions, and `solana_wallets_flutter` to sign it using the users wallet. In order to do so you need a `BaseSignerWalletAdapter`. Most adapters returned by `getWalletAdaptersWhenInitalized` are actually of this type (so you can cast them). Then, take a look at `BaseSignerWalletAdapter.signTransaction` and `BaseSignerWalletAdapter.signAllTransactions`. The example also demonstrates this (see `example/lib/transaction_example.dart`).
 
 ## Examples
-The examples folder contains a project demonstrating how to connect a wallet. It also demonstrates how to use the [`solana`](https://pub.dev/packages/solana) dart package to create a transaction, sign it with `solana_wallets_flutter` and send it with the `solana` package. If you want to see a solana dApp that is written in flutter and uses this plugin, take a look at [NFT-Pixels.io](https://nft-pixels.io).
+The examples folder contains a project demonstrating how to connect a wallet. It also demonstrates how to use the [`solana`](https://pub.dev/packages/solana) dart package to create a transaction, sign it with `solana_wallets_flutter` and send it with the [`solana`](https://pub.dev/packages/solana) package. If you want to see a solana dApp that is written in flutter and uses this plugin, take a look at [NFT-Pixels.io](https://nft-pixels.io).
